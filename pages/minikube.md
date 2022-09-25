@@ -1,9 +1,8 @@
 - ## Overview
 	- very beginner friendly
-	- ;
+	-
 	- launches a VM as a node (via [[hyperkit]])
 		-
-- Compare to other [[Local Development Kubernetes]] tools.
 - ## Cheat Sheet
 	- include logging
 	    ```
