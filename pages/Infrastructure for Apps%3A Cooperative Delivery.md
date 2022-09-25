@@ -1,5 +1,6 @@
 title:: Infrastructure for Apps: Cooperative Delivery
 
+- a [[CNCF App Delivery TAG]] White Paper
 - https://docs.google.com/document/d/1RgKFYRX4jhJCH9q_2wDMogctwU2AYAZZRHUCKBJpHkg/edit
 - Raw Notes
 	- People are seeing real benefits from [[GitOps]] and [[Infrastructure as Code]]
