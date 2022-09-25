@@ -1,3 +1,4 @@
 - Progressive Delivery
 	- slowly releasing your changes to more and more instances
 	- while running tests or ensuring that everything is running all along.
+- a [[CNCF Project]]
