@@ -1,7 +1,5 @@
 - ## Overview
 	- very beginner friendly
-	-
-	-
 - ## Cheat Sheet
 	- include logging
 	    ```
@@ -12,3 +10,4 @@
 - ## Drivers
 	- ### Docker
 		- macOS: [[Docker Desktop on Mac]]
+-
