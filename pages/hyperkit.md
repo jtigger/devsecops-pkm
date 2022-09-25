@@ -4,4 +4,6 @@
 	  $ ps -ef | grep com.docker.hyperkit
 	  $ hyperkit -h
 	  ```
-- PID: `~/Library/Containers/com.docker.docker/Data/vms/0/hyperkit.pid`
+- Breaking down a hyperkit invocation:
+	- ```
+	  ```
