@@ -1,0 +1,4 @@
+- launches a VM as a node (via [[hyperkit]])
+- Getting access to that VM:
+	- https://gist.github.com/BretFisher/5e1a0c7bcca4c735e716abf62afad389
+	- https://github.com/justincormack/nsenter1

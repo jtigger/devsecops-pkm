@@ -11,6 +11,4 @@
 	- https://cheatsheet.dennyzhang.com/cheatsheet-minikube-a4
 - ## Drivers
 	- ### Docker
-		- Docker Desktop on Mac
-		- launches a VM as a node (via [[hyperkit]])
-		- https://github.com/justincormack/nsenter1
+		- macOS: [[Docker Desktop on Mac]]
