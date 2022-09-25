@@ -7,7 +7,7 @@
 - Breaking down a hyperkit invocation:
 	- ```
 	  com.docker.hyperkit \
-	    -A \
+	    -A \                        # Create ACPI tables 
 	    -u \
 	    -F vms/0/hyperkit.pid \     # location of PID
 	    -c 8 \                      # number of CPUs
