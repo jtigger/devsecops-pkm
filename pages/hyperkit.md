@@ -7,8 +7,8 @@
 - Breaking down a hyperkit invocation:
 	- ```
 	  com.docker.hyperkit \
-	    -A \                        # Create ACPI tables 
-	    -u \
+	    -A \                        # Create ACPI tables (power management)
+	    -u \                        # "rtc keeps UTC time"
 	    -F vms/0/hyperkit.pid \     # location of PID
 	    -c 8 \                      # number of CPUs
 	    -m 8192M \
