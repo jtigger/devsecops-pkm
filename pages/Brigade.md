@@ -1,0 +1,4 @@
+- Event-driven scripting
+- JavaScript / TypeScript
+- Do their own Authn/Authz
+- sounds a lot like more managed/controlled GitHub Actions
