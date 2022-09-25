@@ -19,13 +19,8 @@
   id:: 2131995b-952b-47f6-8f80-7c5c662fec99
 	- [[Brigade]]
 	- [[Buildpacks]]
-	- CloudEvents
-	  collapsed:: true
-		- Specification for describing events "in The Cloud"
-	- Flux
-	  collapsed:: true
-		- GitOps: implemented
-		-
+	- [[CloudEvents]]
+	- [[Flux]]
 	- Flagger
 	  collapsed:: true
 		- Progressive Delivery
