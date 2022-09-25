@@ -58,4 +58,3 @@
 	  collapsed:: true
 		- second pair of eyes on guidance to ensure we aren't recommending insecure practices.
 	- Kubernetes SIG Apps
-	-
