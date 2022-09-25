@@ -8,10 +8,10 @@
 	- ```
 	  com.docker.hyperkit \
 	    -A \                        # Create ACPI tables (power management)
-	    -u \                        # "rtc keeps UTC time"
+	    -u \                        # "RTC keeps UTC time"
 	    -F vms/0/hyperkit.pid \     # location of PID
 	    -c 8 \                      # number of CPUs
-	    -m 8192M \
+	    -m 8192M \                  # memory
 	    -s 0:0,hostbridge \         # PCI slot 0: virtual NIC on Host bridge
 	    -s 31,lpc \                 # PCI Slot 31: line printer? loopback?
 	    -s 1:0,virtio-vpnkit,path=vpnkit.eth.sock,uuid=91274488-f6c7-4b55-9257-5443787f98fe \
