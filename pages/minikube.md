@@ -1,12 +1,6 @@
 - ## Overview
 	- very beginner friendly
-	- launches a VM as a node.
-		- https://github.com/moby/hyperkit
-		- ```console
-		  $ ps -ef | grep com.docker.hyperkit
-		  $ hyperkit -h
-		  ```
-		- PID: `~/Library/Containers/com.docker.docker/Data/vms/0/hyperkit.pid`
+	- launches a VM as a node (via [[hyperkit]])
 		-
 - Compare to other [[Local Development Kubernetes]] tools.
 - ## Cheat Sheet
