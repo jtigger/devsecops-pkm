@@ -1,0 +1,7 @@
+- Distributed APplication Runtime
+- a sidecar that proxies common distributed systems interactions
+	- pub/sub
+	- service req/res
+	- state management
+- apps generate Dapr "events" that get turned into API calls.
+-

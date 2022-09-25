@@ -1,0 +1,3 @@
+- Create/Manage infrastructure pieces by creating instances of CRDs
+	- like GCP Config Connector, but vendor-neutral
+- a [[CNCF Project]]

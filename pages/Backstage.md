@@ -1,0 +1,5 @@
+- From Spotify
+- A platform for building "Developer Portal"s
+	- units of JavaScript/TypeScript "packages" that either provide a UI, a backend integration, and/or proxy to 3rd party services
+- "Single Pane of Glass" for Developers
+- a [[CNCF Project]]
