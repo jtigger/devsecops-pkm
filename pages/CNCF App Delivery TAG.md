@@ -47,10 +47,10 @@
 		  collapsed:: true
 			- Orchestrator
 	- Cooperative Delivery Working Group Charter:
-		- [https://github.com/cncf/tag-app-delivery/blob/main/cooperative-delivery-wg/charter/README.md#examples-of-known-patterns-aimed-to-deploy-applications](https://github.com/cncf/tag-app-delivery/blob/main/cooperative-delivery-wg/charter/README.md#examples-of-known-patterns-aimed-to-deploy-applications)
+		- https://github.com/cncf/tag-app-delivery/blob/main/cooperative-delivery-wg/charter/README.md#examples-of-known-patterns-aimed-to-deploy-applications
 	- Other related groups
 		- CNCF Security TAG
+		  collapsed:: true
 			- second pair of eyes on guidance to ensure we aren't recommending insecure practices.
 		- Kubernetes SIG Apps
-			-
 	-
