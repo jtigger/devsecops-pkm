@@ -1,4 +1,3 @@
-- # minikube
 - ## Overview
 	- very beginner friendly
 	- launches a VM as a node.
