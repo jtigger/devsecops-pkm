@@ -2,7 +2,7 @@ title:: Infrastructure for Apps: Cooperative Delivery
 
 - https://docs.google.com/document/d/1RgKFYRX4jhJCH9q_2wDMogctwU2AYAZZRHUCKBJpHkg/edit
 - Raw Notes
-	- People are seeing real benefits from [[GitOps]] and [Infrastructure as Code]
+	- People are seeing real benefits from [[GitOps]] and [[Infrastructure as Code]]
 	- but there's a gap between those delivering apps and those delivering "infrastructure capabilities"
 - Questions I had:
   collapsed:: true
