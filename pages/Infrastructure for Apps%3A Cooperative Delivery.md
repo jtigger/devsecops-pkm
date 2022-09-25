@@ -5,6 +5,7 @@ title:: Infrastructure for Apps: Cooperative Delivery
 - Raw Notes
 	- People are seeing real benefits from [[GitOps]] and [[Infrastructure as Code]]
 	- but there's a gap between those delivering apps and those delivering "infrastructure capabilities"
+	- Notably, [[Platform Engineering]]
 - Questions I had:
 	- Where does the development experience fit in to all this?
 	-
@@ -13,5 +14,3 @@ title:: Infrastructure for Apps: Cooperative Delivery
 	- [[Crossplane]]
 	- [[Dapr]]
 	- [[KubeVela]]
-	-
-		-
