@@ -1,0 +1,3 @@
+- https://platformengineering.org/blog/what-is-platform-engineering
+	- [[Luca Galante]] from [[Humanitec]]
+-
