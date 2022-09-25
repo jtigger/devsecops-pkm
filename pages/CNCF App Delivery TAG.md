@@ -21,16 +21,9 @@
 	- [[Buildpacks]]
 	- [[CloudEvents]]
 	- [[Flux]]
-	- Flagger
-	  collapsed:: true
-		- Progressive Delivery
-			- slowly releasing your changes to more and more instances
-			- while running tests or ensuring that everything is running all along.
-	- Helm
-	  collapsed:: true
-		- Package Manager for Kubernetes
+	- [[Flagger]]
+	- [[Helm]]
 	- Kubernetes
-	  collapsed:: true
 		- Orchestrator
 - Cooperative Delivery Working Group Charter:
   id:: 44b040e2-2e9f-4e9c-bae2-3a53310bbe60
