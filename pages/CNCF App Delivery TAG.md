@@ -50,6 +50,7 @@
 		- Orchestrator
 - Cooperative Delivery Working Group Charter:
   id:: 44b040e2-2e9f-4e9c-bae2-3a53310bbe60
+  collapsed:: true
 	- https://github.com/cncf/tag-app-delivery/blob/main/cooperative-delivery-wg/charter/README.md#examples-of-known-patterns-aimed-to-deploy-applications
 - Other related groups
   id:: 8922db3c-f371-457e-b2ea-bc43bbb6507e
