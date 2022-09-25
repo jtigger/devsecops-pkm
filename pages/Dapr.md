@@ -4,4 +4,4 @@
 	- service req/res
 	- state management
 - apps generate Dapr "events" that get turned into API calls.
--
+- a [[CNCF Project]]

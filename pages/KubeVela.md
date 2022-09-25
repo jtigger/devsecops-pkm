@@ -1,0 +1,5 @@
+- Alibaba Cloud
+- Two parts:
+	- An abstraction (specifically the Open Application Model) that describes the application
+	- A Continuous Delivery Platform that takes that OAM and "orchestrates" the deployment of it.
+- a [[CNCF Project]]

@@ -12,10 +12,6 @@ title:: Infrastructure for Apps: Cooperative Delivery
 	- [[Backstage]]
 	- [[Crossplane]]
 	- [[Dapr]]
-	- KubeVela
-		- Alibaba Cloud
-		- Two parts:
-			- An abstraction (specifically the Open Application Model) that describes the application
-			- A Continuous Delivery Platform that takes that OAM and "orchestrates" the deployment of it.
+	- [[KubeVela]]
 	-
 		-
