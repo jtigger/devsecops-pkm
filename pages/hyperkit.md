@@ -20,5 +20,23 @@
 	    -s 3,virtio-sock,guest_cid=3,path=vms/0,guest_forwards=1525 \   # 
 	    -s 4,virtio-rnd \           # random number generator (for cryptography)
 	    -l com1,null,asl,log=vms/0/console-ring \
-	    -f kexec,/Applications/Docker.app/Contents/Resources/linuxkit/kernel,/Applications/Docker.app/Contents/Resources/linuxkit/initrd.img,earlyprintk=serial page_poison=1 vsyscall=emulate panic=1 nospec_store_bypass_disable noibrs noibpb no_stf_barrier mitigations=off linuxkit.unified_cgroup_hierarchy=1 console=ttyS0 console=ttyS1 tsc=reliable noapic vpnkit.connect=connect://2/1999 vpnkit.disable=osxfs-data 
+	    -f kexec,\
+	       /Applications/Docker.app/Contents/Resources/linuxkit/kernel,\
+	       /Applications/Docker.app/Contents/Resources/linuxkit/initrd.img,\
+	       earlyprintk=serial \
+	    page_poison=1 \
+	    vsyscall=emulate \
+	    panic=1 \
+	    nospec_store_bypass_disable \
+	    noibrs \
+	    noibpb \
+	    no_stf_barrier \
+	    mitigations=off \
+	    linuxkit.unified_cgroup_hierarchy=1 \
+	    console=ttyS0 \
+	    console=ttyS1 \
+	    tsc=reliable \
+	    noapic \
+	    vpnkit.connect=connect://2/1999 \
+	    vpnkit.disable=osxfs-data 
 	  ```
