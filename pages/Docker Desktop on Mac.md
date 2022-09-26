@@ -9,10 +9,16 @@
 		  $ mkdir /var/cache/apk
 		  $ apk add htop
 		  ```
-- <img src="http://localhost:3000/img/ICBncmFwaCBURDsKICBBIC0tPiBCCg" />
-  {{renderer :mermaid_hvvpibwtam}}
+- <p>There is an error with your mermaid syntax. Please rectify and render again.</p>
+  {{renderer :mermaid_odumtl}}
 	- ```mermaid 
 	  graph TD;
 	    A --> B
+	    subgraph one
+	  ```
+	- ```mermaid 
+	  graph TD;
+	    A --> B
+	    subgraph one
 	  ```
 -
