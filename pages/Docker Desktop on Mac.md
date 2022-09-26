@@ -9,13 +9,13 @@
 		  $ mkdir /var/cache/apk
 		  $ apk add htop
 		  ```
-- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgTFIKICAgIGMxLS0-ZG9ja2VyZAogICAgc3ViZ3JhcGggImRvY2tlci1kZXNrdG9wIgogICAgYTEtLT5kb2NrZXJkCiAgICAgIHN1YmdyYXBoICJrOHMgY2x1c3RlciIKICAgICAgTm9kZVBvcnQ6MzE3OTgtLT5Qb2Q6ODAKICAgICAgZW5kCiAgICBlbmQKICAgIHN1YmdyYXBoICJob3N0IG1hY2hpbmUiCiAgICBjMS0tPmMyCiAgICBlbmQK" />
+- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgTFIKICAgIGMxLS0-ZG9ja2VyZAogICAgc3ViZ3JhcGggImRvY2tlci1kZXNrdG9wIChWTSkiCiAgICBicmlkZ2U6MzE3OTgtLT5Ob2RlUG9ydDozMTc5OAogICAgICBzdWJncmFwaCAiazhzIGNsdXN0ZXIiCiAgICAgIE5vZGVQb3J0OjMxNzk4LS0-UG9kOjgwCiAgICAgIGVuZAogICAgZW5kCiAgICBzdWJncmFwaCAiaG9zdCBtYWNoaW5lIgogICAgYzEtLT5jMgogICAgZW5kCg" />
   {{renderer :mermaid_odumtl}}
 	- ```mermaid 
 	  flowchart LR
 	      c1-->dockerd
-	      subgraph "docker-desktop"
-	      -->NodePort:31798
+	      subgraph "docker-desktop (VM)"
+	      bridge:31798-->NodePort:31798
 	        subgraph "k8s cluster"
 	        NodePort:31798-->Pod:80
 	        end
