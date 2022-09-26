@@ -9,8 +9,9 @@
 		  $ mkdir /var/cache/apk
 		  $ apk add htop
 		  ```
-- ```mermaid
-  graph TD;
-    A --> B
-  ```
+- {{renderer :mermaid_hvvpibwtam}}
+	- ```mermaid 
+	  graph TD;
+	  
+	  ```
 -
