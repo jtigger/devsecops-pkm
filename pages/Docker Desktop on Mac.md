@@ -9,16 +9,13 @@
 		  $ mkdir /var/cache/apk
 		  $ apk add htop
 		  ```
-- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgVEIKICAgIGMxLS0-YTIKICAgIHN1YmdyYXBoICJkb2NrZXItZGVza3RvcCIKICAgIGExLS0-YTIKICAgIGVuZAogICAgc3ViZ3JhcGggdHdvCiAgICBiMS0tPmIyCiAgICBlbmQKICAgIHN1YmdyYXBoIHRocmVlCiAgICBjMS0tPmMyCiAgICBlbmQK" />
+- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgVEIKICAgIGMxLS0-YTIKICAgIHN1YmdyYXBoICJkb2NrZXItZGVza3RvcFxuwqtoeXBlcmtpdMK7IgogICAgYTEtLT5hMgogICAgZW5kCiAgICBzdWJncmFwaCB0aHJlZQogICAgYzEtLT5jMgogICAgZW5kCg" />
   {{renderer :mermaid_odumtl}}
 	- ```mermaid 
 	  flowchart TB
 	      c1-->a2
-	      subgraph "docker-desktop"
+	      subgraph "docker-desktop\n«hyperkit»"
 	      a1-->a2
-	      end
-	      subgraph two
-	      b1-->b2
 	      end
 	      subgraph three
 	      c1-->c2
