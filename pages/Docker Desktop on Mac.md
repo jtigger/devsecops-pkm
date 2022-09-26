@@ -10,7 +10,7 @@
 		  $ apk add htop
 		  ```
 - ```mermaid
-  graph {
-  
-  }
+  graph TD;
+    A --> B
   ```
+-
