@@ -15,7 +15,7 @@
 	  flowchart LR
 	      c1-->dockerd
 	      subgraph "docker-desktop"
-	      a1-->dockerd
+	      -->NodePort:31798
 	        subgraph "k8s cluster"
 	        NodePort:31798-->Pod:80
 	        end
