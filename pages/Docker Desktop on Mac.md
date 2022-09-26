@@ -9,13 +9,13 @@
 		  $ mkdir /var/cache/apk
 		  $ apk add htop
 		  ```
-- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgTFIKICAgIGMxLS0-YTIKICAgIHN1YmdyYXBoICJkb2NrZXItZGVza3RvcCIKICAgIGExLS0-YTIKICAgICAgc3ViZ3JhcGggIms4cyBjbHVzdGVyIgogICAgICBiMS0tPmIyCiAgICAgIGVuZAogICAgZW5kCiAgICBzdWJncmFwaCAiaG9zdCBtYWNoaW5lIgogICAgYzEtLT5jMgogICAgZW5kCg" />
+- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgTFIKICAgIGMxLS0-ZG9ja2VyZAogICAgc3ViZ3JhcGggImRvY2tlci1kZXNrdG9wIgogICAgYTEtLT5kb2NrZXJkCiAgICAgIHN1YmdyYXBoICJrOHMgY2x1c3RlciIKICAgICAgYjEtLT5iMgogICAgICBlbmQKICAgIGVuZAogICAgc3ViZ3JhcGggImhvc3QgbWFjaGluZSIKICAgIGMxLS0-YzIKICAgIGVuZAo" />
   {{renderer :mermaid_odumtl}}
 	- ```mermaid 
 	  flowchart LR
-	      c1-->a2
+	      c1-->dockerd
 	      subgraph "docker-desktop"
-	      a1-->a2
+	      a1-->dockerd
 	        subgraph "k8s cluster"
 	        b1-->b2
 	        end
