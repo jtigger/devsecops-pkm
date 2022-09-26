@@ -9,16 +9,20 @@
 		  $ mkdir /var/cache/apk
 		  $ apk add htop
 		  ```
-- <p>There is an error with your mermaid syntax. Please rectify and render again.</p>
+- <img src="http://localhost:3000/img/ICBmbG93Y2hhcnQgVEIKICAgIGMxLS0-YTIKICAgIHN1YmdyYXBoIG9uZQogICAgYTEtLT5hMgogICAgZW5kCiAgICBzdWJncmFwaCB0d28KICAgIGIxLS0-YjIKICAgIGVuZAogICAgc3ViZ3JhcGggdGhyZWUKICAgIGMxLS0-YzIKICAgIGVuZAo" />
   {{renderer :mermaid_odumtl}}
 	- ```mermaid 
-	  graph TD;
-	    A --> B
-	    subgraph one
+	  flowchart TB
+	      c1-->a2
+	      subgraph one
+	      a1-->a2
+	      end
+	      subgraph two
+	      b1-->b2
+	      end
+	      subgraph three
+	      c1-->c2
+	      end
 	  ```
-	- ```mermaid 
-	  graph TD;
-	    A --> B
-	    subgraph one
-	  ```
+-
 -
