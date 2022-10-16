@@ -7,6 +7,9 @@
  {:block/name "backstage",
   :block/created-at 1664157968869,
   :block/updated-at 1664157968869}
+ {:block/name "bret fisher",
+  :block/created-at 1665930634165,
+  :block/updated-at 1665930836870}
  {:block/name "brigade",
   :block/created-at 1664157968894,
   :block/updated-at 1664157968894}
@@ -94,6 +97,9 @@
  {:block/name "kubernetes",
   :block/created-at 1664157968976,
   :block/updated-at 1664157968976}
+ {:block/name "kubernetes mastery (course)",
+  :block/created-at 1665930361324,
+  :block/updated-at 1665930853607}
  {:block/name "kubevela",
   :block/created-at 1664157969241,
   :block/updated-at 1664157969241}
@@ -112,6 +118,9 @@
  {:block/name "now",
   :block/created-at 1664284880647,
   :block/updated-at 1664284880647}
+ {:block/name "oct 16th, 2022",
+  :block/created-at 1665930072227,
+  :block/updated-at 1665930383159}
  {:block/name "platform engineering",
   :block/created-at 1664157969237,
   :block/updated-at 1664157969237}
