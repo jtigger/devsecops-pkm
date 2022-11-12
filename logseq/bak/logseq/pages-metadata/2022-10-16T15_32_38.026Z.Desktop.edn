@@ -70,9 +70,6 @@
  {:block/name "helm",
   :block/created-at 1664157968975,
   :block/updated-at 1664157968975}
- {:block/name "https://www.youtube.com/watch?v=x9_9iavszpm",
-  :block/created-at 1668202548139,
-  :block/updated-at 1668202548139}
  {:block/name "humanitec",
   :block/created-at 1664157969134,
   :block/updated-at 1664157969134}
@@ -94,9 +91,6 @@
  {:block/name "k3d",
   :block/created-at 1664157969291,
   :block/updated-at 1664157969291}
- {:block/name "keeping containers in good health",
-  :block/created-at 1667924585142,
-  :block/updated-at 1667924841116}
  {:block/name "kind",
   :block/created-at 1664157969289,
   :block/updated-at 1664157969289}
@@ -105,7 +99,7 @@
   :block/updated-at 1664157968976}
  {:block/name "kubernetes mastery (course)",
   :block/created-at 1665930361324,
-  :block/updated-at 1667924585142}
+  :block/updated-at 1665930853607}
  {:block/name "kubevela",
   :block/created-at 1664157969241,
   :block/updated-at 1664157969241}
@@ -121,87 +115,24 @@
  {:block/name "minikube",
   :block/created-at 1664157969290,
   :block/updated-at 1664157969290}
- {:block/name "natan yellin",
-  :block/created-at 1668202548139,
-  :block/updated-at 1668202548139}
- {:block/name "nov 11th, 2022",
-  :block/created-at 1668202522272,
-  :block/updated-at 1668224826701}
- {:block/name "nov 12th, 2022",
-  :block/created-at 1668240052368,
-  :block/updated-at 1668240052368}
- {:block/name "nov 1st, 2022",
-  :block/created-at 1667329213638,
-  :block/updated-at 1667329213638}
- {:block/name "nov 2nd, 2022",
-  :block/created-at 1667406490163,
-  :block/updated-at 1667406490163}
- {:block/name "nov 7th, 2022",
-  :block/created-at 1667874755996,
-  :block/updated-at 1667874755996}
- {:block/name "nov 8th, 2022",
-  :block/created-at 1667895918978,
-  :block/updated-at 1667895918978}
- {:block/name "nov 9th, 2022",
-  :block/created-at 1668021739000,
-  :block/updated-at 1668022515144}
  {:block/name "now",
   :block/created-at 1664284880647,
   :block/updated-at 1664284880647}
  {:block/name "oct 16th, 2022",
   :block/created-at 1665930072227,
   :block/updated-at 1665930383159}
- {:block/name "oct 17th, 2022",
-  :block/created-at 1665990807652,
-  :block/updated-at 1665990807652}
- {:block/name "oct 18th, 2022",
-  :block/created-at 1666078174530,
-  :block/updated-at 1666163577441}
- {:block/name "oct 19th, 2022",
-  :block/created-at 1666163577435,
-  :block/updated-at 1666163577435}
- {:block/name "oct 20th, 2022",
-  :block/created-at 1666250006527,
-  :block/updated-at 1666250006527}
- {:block/name "oct 21st, 2022",
-  :block/created-at 1666338902216,
-  :block/updated-at 1666338902216}
- {:block/name "oct 22nd, 2022",
-  :block/created-at 1666423414145,
-  :block/updated-at 1666423414145}
- {:block/name "oct 23rd, 2022",
-  :block/created-at 1666538307328,
-  :block/updated-at 1666538307328}
- {:block/name "oct 24th, 2022",
-  :block/created-at 1666584049503,
-  :block/updated-at 1666897347943}
- {:block/name "oct 25th, 2022",
-  :block/created-at 1666670490304,
-  :block/updated-at 1667421358763}
- {:block/name "oct 26th, 2022",
-  :block/created-at 1666757622416,
-  :block/updated-at 1666757622416}
- {:block/name "oct 27th, 2022",
-  :block/created-at 1666843641510,
-  :block/updated-at 1666899609561}
- {:block/name "oct 28th, 2022",
-  :block/created-at 1666930119178,
-  :block/updated-at 1666930119178}
- {:block/name "oct 29th, 2022",
-  :block/created-at 1667016476270,
-  :block/updated-at 1667016476270}
- {:block/name "oct 30th, 2022",
-  :block/created-at 1667119192401,
-  :block/updated-at 1667150491273}
- {:block/name "oct 31st, 2022",
-  :block/created-at 1667200151771,
-  :block/updated-at 1667200151771}
  {:block/name "platform engineering",
   :block/created-at 1664157969237,
   :block/updated-at 1664157969237}
  {:block/name "sep 25th, 2022",
   :block/created-at 1664157969522,
   :block/updated-at 1664157969522}
+ {:block/name "sep 26th, 2022",
+  :block/created-at 1664175659687,
+  :block/updated-at 1664175659687}
+ {:block/name "sep 27th, 2022",
+  :block/created-at 1664262524334,
+  :block/updated-at 1664262524334}
  {:block/name "todo",
   :block/created-at 1664284880647,
   :block/updated-at 1664284880647}
