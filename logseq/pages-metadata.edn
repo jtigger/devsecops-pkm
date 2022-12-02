@@ -118,6 +118,9 @@
  {:block/name "luca galante",
   :block/created-at 1664157969308,
   :block/updated-at 1664157969308}
+ {:block/name "managing secrets in kubernetes",
+  :block/created-at 1668625702231,
+  :block/updated-at 1668627328894}
  {:block/name "minikube",
   :block/created-at 1664157969290,
   :block/updated-at 1664157969290}
@@ -130,6 +133,18 @@
  {:block/name "nov 12th, 2022",
   :block/created-at 1668240052368,
   :block/updated-at 1668240052368}
+ {:block/name "nov 13th, 2022",
+  :block/created-at 1668326441510,
+  :block/updated-at 1668326441510}
+ {:block/name "nov 14th, 2022",
+  :block/created-at 1668412843471,
+  :block/updated-at 1668446837230}
+ {:block/name "nov 16th, 2022",
+  :block/created-at 1668625614543,
+  :block/updated-at 1668627803700}
+ {:block/name "nov 17th, 2022",
+  :block/created-at 1668703277952,
+  :block/updated-at 1668703277952}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667329213638,
   :block/updated-at 1667329213638}
