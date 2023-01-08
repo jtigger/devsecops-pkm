@@ -17,9 +17,7 @@
 			- Must be in a strong enclosure
 			- Must zero-out plaintext CSP when doors/covers are opened/removed
 			- Must use Identity-based authentication
-			-
-			-
-			-
-			-
+		- Security Level 4
+			- Must zero-out plaintext CSP when _any_ unauthorized access is attempted
 			-
 	-
