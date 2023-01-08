@@ -37,9 +37,12 @@
 		- You configure a Lambda function that performs the rotation
 			- https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_turn-on-for-other.html#rotate-secrets_turn-on-for-other_step5
 			- The function must be written securely.
-				- For example, can't succumb to the "Confused Deputy
-				- https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html
-				-
+			  collapsed:: true
+				- For example, can't succumb to the "Confused Deputy" problem
+					- https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html
+	-
+		-
+			-
 		-
 		-
 		-
