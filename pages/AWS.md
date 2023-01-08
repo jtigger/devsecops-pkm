@@ -12,6 +12,8 @@
 		- Security Level 2
 			- Must have tamper-evident coating (on locks and doors)
 			- Must have Role-Based authentication
+			- Can run on general purpose compute, but must be EAL2 (or higher)
+		- Security Level 3
 			-
 			-
 			-
