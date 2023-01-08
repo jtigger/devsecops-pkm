@@ -3,3 +3,5 @@
 		- Support encrypting secrets with KMS.
 - KMS = Key Management Service
 	- FIPS 140-2 validated hardware
+		- FIPS = Federal Information Processing Standard
+	-
