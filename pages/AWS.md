@@ -6,6 +6,9 @@
 		- https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf
 		- FIPS = Federal Information Processing Standard
 		- Security Level 1
+			- No physical security required
+			- e.g. PC encryption board
+		- Security Level 2
 			-
 			-
 	-
