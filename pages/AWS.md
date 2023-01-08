@@ -35,6 +35,7 @@
 	- Rotation
 		- https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html
 		- You configure a Lambda function that performs the rotation
+			- https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_turn-on-for-other.html#rotate-secrets_turn-on-for-other_step5
 		-
 		-
 		-
