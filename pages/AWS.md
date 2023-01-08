@@ -24,6 +24,8 @@
 	- There are multiple key source options
 		- KMS, itself
 		- CloudHSM (Hardware Security Module) — FIPS 104-2, ((63ba10e3-db0d-49a6-a2d9-56d031a2c9b1)) validated
+			- This is a _cluster_ of hardware modules
+		-
 	-
 		-
 		-
