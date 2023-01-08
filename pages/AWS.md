@@ -19,6 +19,6 @@
 			- Must use Identity-based authentication
 		- Security Level 4
 			- Must zero-out plaintext CSP when _any_ unauthorized access is attempted, or if the device is used outside of normal operating voltages or temperatures
-			-
-			-
+-
+	-
 	-
