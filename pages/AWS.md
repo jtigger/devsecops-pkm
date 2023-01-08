@@ -33,7 +33,9 @@
 		- 30-day free trial
 		- $0.40 / secret / month; $0.05 / 10,000 API calls
 	- Rotation
-		- You can configure a Lambda function to generate a new secret
+		- https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html
+		- You configure a Lambda function that performs the rotation
+		-
 		-
 		-
 		-
