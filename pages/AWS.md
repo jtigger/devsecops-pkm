@@ -9,6 +9,7 @@
 			- No physical security required
 			- e.g. PC encryption board
 		- Security Level 2
-			- Must have tamper-evident coating
+			- Must have tamper-evident coating (on locks and doors)
+			-
 			-
 	-
