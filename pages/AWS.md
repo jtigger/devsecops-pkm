@@ -14,6 +14,9 @@
 			- Must have Role-Based authentication
 			- Can run on general purpose compute, but must be EAL2 (or higher)
 		- Security Level 3
+			- Must detect and respond to attempts at physical access, use, or modification
+			- Must be in a strong enclosure
+			-
 			-
 			-
 			-
