@@ -15,6 +15,7 @@
 			- Must have Role-Based authentication
 			- Can run on general purpose compute, but must be EAL2 (or higher)
 		- Security Level 3
+		  id:: 63ba10e3-db0d-49a6-a2d9-56d031a2c9b1
 			- Must be in a strong enclosure
 			- Must zero-out plaintext CSP when doors/covers are opened/removed
 			- Must use Identity-based authentication
@@ -22,7 +23,7 @@
 			- Must zero-out plaintext CSP when _any_ unauthorized access is attempted, or if the device is used outside of normal operating voltages or temperatures
 	- There are multiple key source options
 		- KMS, itself
-		- CloudHSM
--
+		- CloudHSM (Hardware Security Module) — FIPS 104-2, ((63ba10e3-db0d-49a6-a2d9-56d031a2c9b1)) validated
 	-
-	-
+		-
+		-
