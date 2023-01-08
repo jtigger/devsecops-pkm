@@ -1,0 +1,4 @@
+- EKS = Managed [[Kubernetes]].
+	- Random Facts
+		- Support encrypting secrets with KMS.
+		-
