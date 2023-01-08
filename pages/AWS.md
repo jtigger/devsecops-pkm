@@ -32,8 +32,8 @@
 	- Pricing:
 		- 30-day free trial
 		- $0.40 / secret / month; $0.05 / 10,000 API calls
--
-	-
-	-
+	- You can configure
 		-
 		-
+			-
+			-
