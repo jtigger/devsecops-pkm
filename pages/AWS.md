@@ -3,6 +3,8 @@
 		- Support encrypting secrets with KMS.
 - KMS = Key Management Service
 	- These are your _encryption keys_ not your encrypted data.
+		- they are _used_ by other services to perform encryption.
+		-
 	- FIPS 140-2 validated hardware
 	  collapsed:: true
 		- https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf
