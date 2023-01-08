@@ -7,9 +7,12 @@
 		- FIPS = Federal Information Processing Standard
 		- Security Level 1
 			- No physical security required
+			- Can run on a general purpose compute (on an unevaluated OS)
 			- e.g. PC encryption board
 		- Security Level 2
 			- Must have tamper-evident coating (on locks and doors)
+			- Must have Role-Based authentication
+			-
 			-
 			-
 	-
