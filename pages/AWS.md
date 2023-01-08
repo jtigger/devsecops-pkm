@@ -5,6 +5,7 @@
 	- FIPS 140-2 validated hardware
 		- https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf
 		- FIPS = Federal Information Processing Standard
-	-
-		-
+		- Security Level 1
+			-
+			-
 	-
