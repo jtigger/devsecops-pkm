@@ -3,6 +3,7 @@
 		- Support encrypting secrets with KMS.
 - KMS = Key Management Service
 	- FIPS 140-2 validated hardware
+	  collapsed:: true
 		- https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf
 		- FIPS = Federal Information Processing Standard
 		- Security Level 1
@@ -19,6 +20,9 @@
 			- Must use Identity-based authentication
 		- Security Level 4
 			- Must zero-out plaintext CSP when _any_ unauthorized access is attempted, or if the device is used outside of normal operating voltages or temperatures
+	- There are multiple key source options
+		- KMS, itself
+		- CloudHSM
 -
 	-
 	-
