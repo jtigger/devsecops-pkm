@@ -42,8 +42,9 @@
 					- https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html
 - Identity & Access Management (IAM)
 	- Q: What is an IAM Policy?
-		- There are six kinds of policies
+		- There are six kinds of policies (in order of frequency of use)
 			- identity-based policies
+				- "managed" — created independently and attached to "i
 			- resource-based policies
 			- permissions boundaries
 			- Organizations SCPs
