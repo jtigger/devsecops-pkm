@@ -40,11 +40,8 @@
 			  collapsed:: true
 				- For example, can't succumb to the "Confused Deputy" problem
 					- https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html
+- IAM
+	-
 	-
 		-
-			-
 		-
-		-
-		-
-			-
-			-
