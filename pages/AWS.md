@@ -42,7 +42,14 @@
 					- https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html
 - Identity & Access Management (IAM)
 	- Q: What is an IAM Policy?
-	-
+		- There are six kinds of policies
+			- identity-based policies
+			- resource-based policies
+			- permissions boundaries
+			- Organizations SCPs
+			- ACLs
+			- Session Policies
+			-
 	-
 		-
 		-
