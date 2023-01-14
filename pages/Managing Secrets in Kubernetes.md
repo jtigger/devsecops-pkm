@@ -1,5 +1,6 @@
 - ## Lightning Talk at GitOpsCon
 	- https://www.youtube.com/watch?v=PTdwW-wG2uA&list=PLj6h78yzYM2PVniTC7pKpHx1KsYjsOJnJ&index=6
+	- October 25, 2022
 	- Notes
 		- SealedSecrets
 		  collapsed:: true
@@ -45,9 +46,10 @@
 					- include an `ExternalSecret` in your manifests.
 				- Runtime
 					- `ExternalSecretsController`, for every `ExternalSecrets` creates and updates a `Secret`.
-- ## Blog Article:
-	- # Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated
+- ## Blog Article: Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated
 	- https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc
+	- May 15, 2022
+		-
 - "Key Store is not a Secrets Manager"
 -
 	-
