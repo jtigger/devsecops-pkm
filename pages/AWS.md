@@ -1,12 +1,12 @@
 - EKS = Managed [[Kubernetes]].
 	- https://aws.github.io/aws-eks-best-practices/
-	-
 	- Facts
 		- Support encrypting secrets with KMS.
 	- Authentication + Authorization (i.e. within the cluster)
 		- "Principle"s are _authenticated_ via IAM (via `sts:GetCallerIdentity`)
 		- "Principle"s are _authorized_ via Kubernetes RBAC
 		- done using the aws-iam-authenticator
+		  collapsed:: true
 			- https://github.com/kubernetes-sigs/aws-iam-authenticator
 			- who's configuration is in the `aws-auth` ConfigMap:
 				- ```
@@ -24,8 +24,6 @@
 			- started by Heptio; maintained by AWS OSS engineering
 			- primarily: [Nicholas Turner](https://github.com/nckturner)
 		- ref: https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
-		-
-		-
 	-
 - KMS = Key Management Service
 	- These are your _encryption keys_ not your encrypted data.
