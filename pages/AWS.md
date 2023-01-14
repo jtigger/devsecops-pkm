@@ -1,6 +1,8 @@
 - EKS = Managed [[Kubernetes]].
-	- Random Facts
+	- Facts
 		- Support encrypting secrets with KMS.
+	- Authentication
+		- "Principle"s are _authenticated_
 - KMS = Key Management Service
 	- These are your _encryption keys_ not your encrypted data.
 		- they are _used_ by other services to perform encryption.
