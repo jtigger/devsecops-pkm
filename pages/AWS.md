@@ -4,7 +4,8 @@
 	- Authentication + Authorization (i.e. within the cluster)
 		- "Principle"s are _authenticated_ via IAM (via `sts:GetCallerIdentity`)
 		- "Principle"s are _authorized_ via Kubernetes RBAC
-		- done using: https://github.com/kubernetes-sigs/aws-iam-authenticator
+		- done using the aws-iam-authenticator
+			- https://github.com/kubernetes-sigs/aws-iam-authenticator
 			- who's configuration is in the `aws-auth` ConfigMap:
 				- ```
 				  kubectl describe -n kube-system configmap/aws-auth
