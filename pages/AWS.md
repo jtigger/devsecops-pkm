@@ -13,6 +13,7 @@
 				  kubectl describe -n kube-system configmap/aws-auth
 				  ```
 				- This is all of the principals (users and roles) that have access to the cluster.
+				-
 			- started by Heptio; maintained by AWS OSS engineering
 			- primarily: [Nicholas Turner](https://github.com/nckturner)
 		- ref: https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
