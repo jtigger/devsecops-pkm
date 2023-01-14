@@ -12,10 +12,10 @@
 				- ```
 				  kubectl describe -n kube-system configmap/aws-auth
 				  ```
-				- This is all of the principals (users and roles) that have access to the cluster.
+				- This is the mapping of principals (users and roles) to
 				- In fact, there are three "backend" options (`--backend-mode`)
-					- `MountedFile`
-						-
+					- `MountedFile` (default)
+						- data from the primary configuration file.
 					- `CRD`
 						- same data that's in the ((63c332d6-f257-46e2-b2f7-e49bf0f3df3b)), but with CRD benefits like validation.
 					- `EKSConfigMap`
