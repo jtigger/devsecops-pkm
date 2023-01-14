@@ -1,4 +1,6 @@
 - EKS = Managed [[Kubernetes]].
+	- https://aws.github.io/aws-eks-best-practices/
+	-
 	- Facts
 		- Support encrypting secrets with KMS.
 	- Authentication + Authorization (i.e. within the cluster)
