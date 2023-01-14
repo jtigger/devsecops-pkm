@@ -12,7 +12,7 @@
 				- ```
 				  kubectl describe -n kube-system configmap/aws-auth
 				  ```
-				- This is the mapping of principals (users and roles) to
+				- This is the mapping of AWS IAM Principals (users and roles) to RBAC authorizations
 				- In fact, there are three "backend" options (`--backend-mode`)
 					- `MountedFile` (default)
 						- data from the primary configuration file.
