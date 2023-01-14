@@ -39,7 +39,6 @@
 				- include an `ExternalSecret` in your manifests.
 			- Runtime
 				- `ExternalSecretsController`, for every `ExternalSecrets` creates and updates a `Secret`.
-		-
 - "Key Store is not a Secrets Manager"
 	-
 		-
