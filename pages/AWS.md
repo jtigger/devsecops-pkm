@@ -5,6 +5,10 @@
 		- "Principle"s are _authenticated_ via IAM (via `sts:GetCallerIdentity`)
 		- "Principle"s are _authorized_ via Kubernetes RBAC
 		- done using: https://github.com/kubernetes-sigs/aws-iam-authenticator
+			- who's configuration is in the `aws-auth` ConfigMap:
+				- ```
+				  kubectl describe -n kube-system configmap/aws-auth
+				  ```
 			- started by Heptio; maintained by AWS OSS engineering
 			- primarily: [Nicholas Turner](https://github.com/nckturner)
 		- ref: https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
