@@ -4,7 +4,9 @@
 	- Authentication + Authorization (i.e. within the cluster)
 		- "Principle"s are _authenticated_ via IAM (via `sts:GetCallerIdentity`)
 		- "Principle"s are _authorized_ via Kubernetes RBAC
-		- https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
+		- done using: https://github.com/kubernetes-sigs/aws-iam-authenticator
+			- started by Heptio; maintained by AWS OSS engineering
+		- ref: https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
 		-
 	-
 - KMS = Key Management Service
