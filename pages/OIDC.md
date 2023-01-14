@@ -1,3 +1,5 @@
 - https://openid.net/connect/
 - "Identity layer" on top of OAuth2
--
+- Entity is a thing
+	- has multiple identities
+	-
