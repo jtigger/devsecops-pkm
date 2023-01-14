@@ -2,8 +2,10 @@
 	- Facts
 		- Support encrypting secrets with KMS.
 	- Authentication + Authorization (i.e. within the cluster)
-		- "Principle"s are _authenticated_ via IAM
+		- "Principle"s are _authenticated_ via IAM (via `sts:GetCallerIdentity`)
 		- "Principle"s are _authorized_ via Kubernetes RBAC
+		- https://docs.aws.amazon.com/eks/latest/userguide/cluster-auth.html
+		-
 	-
 - KMS = Key Management Service
 	- These are your _encryption keys_ not your encrypted data.
