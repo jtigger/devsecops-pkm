@@ -64,7 +64,7 @@
 			- Session Policies
 			-
 	- Q: How do I determine which identity is being used?
-		-
+	- Identity Federation ~ IAM integrates with IdPs that are compatible with [[OIDC]] or SAML 2.0
 	-
 		-
 		-
