@@ -1,0 +1,2 @@
+- Decode locally using `~/rucksack/bin/jwt-decode.sh`
+-
