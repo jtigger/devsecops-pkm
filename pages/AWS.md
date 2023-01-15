@@ -79,6 +79,8 @@
 			-
 	- Q: How do I determine which identity is being used?
 	- Identity Federation ~ IAM integrates with IdPs that are compatible with [[OIDC]] or SAML 2.0
+- The default credential provider chain:
+	- https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html#specifying-credentials
 	-
-		-
-		-
+	-
+	-
