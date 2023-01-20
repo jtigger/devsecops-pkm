@@ -16,7 +16,7 @@
 		- ArgoCD Vault Plugin
 		  collapsed:: true
 			- Problem: you can't scope how widely secrets are shared
-		- SOPS
+		- [[SOPS]]
 			- "There are so many problems, we don't have time"
 			- Problem: you can't scope how widely secrets are shared
 		- Vault Agent Injector
