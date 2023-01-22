@@ -11,7 +11,7 @@
 		    ```
 - ## Validating Resources
 	- One of the most reliable validation tools, use `--dry-run=server` to check manifests before applying
-		- Example: an ESO v0.6.2's ClusterSecretStore did
+		- Example: an ESO v0.6.2's `ClusterSecretStore` did not support using session tokens.
 		- ```
 		  $ ytt -f aws-secretsmanager/ --data-values-env AWS | kubectl apply -f- --dry-run=server
 		  secret/awssm-secret created (server dry run)
