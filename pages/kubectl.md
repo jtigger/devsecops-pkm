@@ -10,6 +10,7 @@
 		    $ kubectl explain deployment.spec.template.spec.dnsConfig --recursive
 		    ```
 - ## Validating Resources
+  id:: 63cd8fa2-5736-4f1e-8a17-30c5f60dec16
 	- One of the most reliable validation tools, use `--dry-run=server` to check manifests before applying
 		- Example: an ESO v0.6.2's `ClusterSecretStore` did not support using session tokens.
 		- ```
