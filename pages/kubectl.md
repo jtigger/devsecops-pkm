@@ -9,6 +9,8 @@
 		    ```console
 		    $ kubectl explain deployment.spec.template.spec.dnsConfig --recursive
 		    ```
+- ## Validating Resources
+	- One of the most reliable validation tools, use `--dry-run=server` to check
 - ## Querying
 	- Use `-o jsonpath` to select from the result. (note: escape the `.`)
 	  ```console
