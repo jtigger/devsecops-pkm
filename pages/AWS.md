@@ -6,7 +6,6 @@
 		- "Principle"s are _authenticated_ via IAM (via `sts:GetCallerIdentity`)
 		- "Principle"s are _authorized_ via Kubernetes RBAC
 		- done using the aws-iam-authenticator
-		  collapsed:: true
 			- https://github.com/kubernetes-sigs/aws-iam-authenticator
 			- who's configuration is in the `aws-auth` ConfigMap:
 				- ```
