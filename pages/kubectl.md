@@ -2,12 +2,14 @@
 - ## Managing Contexts
 	- How to merge Kubernetes kubectl config files
 		- https://medium.com/@jacobtomlinson/how-to-merge-kubernetes-kubectl-config-files-737b61bd517d
+		- TL;DR. `kubectl` lets you specify a _path_ of kube config. 🙌🏻 And you can flatten that config.
 		- ```
 		  $ cp ~/.kube/config ~/.kube/config.bak 
 		  $ KUBECONFIG=~/.kube/config:/path/to/new/config kubectl config view --flatten > /tmp/config 
 		  $ mv /tmp/config ~/.kube/config 
 		  $ rm ~/.kube/config.bak
 		  ```
+		-
 - ## Authoring Resources
   collapsed:: true
 	- API Docs
