@@ -1,5 +1,5 @@
 - ztags: #cli #epic-note #kubernetes #tools
-- ## Managing Contexts
+- ## Managing Config/Contexts
 	- How to merge Kubernetes kubectl config files
 		- https://medium.com/@jacobtomlinson/how-to-merge-kubernetes-kubectl-config-files-737b61bd517d
 		- TL;DR. `kubectl` lets you specify a _path_ of kube config. 🙌🏻 And you can flatten that config.
