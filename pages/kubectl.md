@@ -1,4 +1,13 @@
 - ztags: #cli #epic-note #kubernetes #tools
+- ## Managing Contexts
+	- How to merge Kubernetes kubectl config files
+		- https://medium.com/@jacobtomlinson/how-to-merge-kubernetes-kubectl-config-files-737b61bd517d
+		- ```
+		  $ cp ~/.kube/config ~/.kube/config.bak 
+		  $ KUBECONFIG=~/.kube/config:/path/to/new/config kubectl config view --flatten > /tmp/config 
+		  $ mv /tmp/config ~/.kube/config 
+		  $ rm ~/.kube/config.bak
+		  ```
 - ## Authoring Resources
   collapsed:: true
 	- API Docs
