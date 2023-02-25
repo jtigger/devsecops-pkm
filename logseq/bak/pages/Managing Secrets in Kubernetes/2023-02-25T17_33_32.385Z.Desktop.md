@@ -1,0 +1,46 @@
+- Lightining Talk at GitOpsCon
+	- https://www.youtube.com/watch?v=PTdwW-wG2uA&list=PLj6h78yzYM2PVniTC7pKpHx1KsYjsOJnJ&index=6
+- Notes
+	- SealedSecrets
+		- Flow:
+			- User's Laptop
+				- (secret manifest) => `kubeseal` => (SealedSecret manifest) => git repo (special for secrets)
+			- In Cluster
+				- git repo => SealedSecret -names and owns-> Secret
+				- SealedSecretsController (+Decryption keys +SealedSecret) =(creates)=> Secret
+		- Usage:
+			- POC or quick starts
+			- doesn't scale well
+	- ArgoCD Vault Plugin
+		- Problem: you can't scope how widely secrets are shared
+	- SOPS
+		- "There are so many problems, we don't have time"
+		- Problem: you can't scope how widely secrets are shared
+	- Vault Agent Injector
+		- Flow:
+			- Annotate your Pod manifests with Vault annotations
+			- Sidecar Injector Controller
+				- injects the "vault agent" sidecar
+					- telling agent
+					- mounts `/vault/secrets` and places
+		- Problem: each pod gets its own injector, which itself connects to the Vault server; might not scale.
+	- Secrets Store CSI
+		- Summary: secrets injected directly into Pod through the Container Storage Interface.
+		- Flow:
+			- in `kube-system` namespace, create a `SecretProviderClass` to describe where secret data comes from.
+			- when your Pod is created, the CSI Driver mounts `/mnt/secrets` and pulls configured secrets from various secret managers (AWS, GCP, Azure, Vault)
+	- External Secrets Operator
+		- Summary:
+		- Flow:
+			- Setup In Cluster
+				- create `ClusterSecretStore` that describes how to get secrets
+				- `ExternalSecretsController` takes that configuration and adapts to various secrets managers (AWS, GCP, Azure, Vault, ...)
+			- Workstation
+				- include an `ExternalSecret` in your manifests.
+			- Runtime
+				- `ExternalSecretsController`, for every `ExternalSecrets` creates and updates a `Secret`.
+		-
+- "Key Store is not a Secrets Manager"
+	-
+		-
+		-
