@@ -2,6 +2,7 @@
 	- In Kubernetes 1.24, Service Account Tokens are no longer automatically generated.
 		- Instead
 			- Pod configuration is modified to include a projected volume that includes the Service Account token. (see `BoundServiceAccountTokenVolume`)
+				-
 			- A token can be manually created using the TokenRequest API
 				- e.g. `kubectl -v10 create token (service-account-name)`
 		- Described in KEP-2799
