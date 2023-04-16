@@ -1,0 +1,2 @@
+- Notes:
+	- In Kubernetes 1.24,
