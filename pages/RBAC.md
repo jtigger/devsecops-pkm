@@ -1,7 +1,10 @@
 - Notes:
 	- In Kubernetes 1.24, Service Account Tokens are no longer automatically generated.
 		- Instead
-			- Pod configuration is modified to include a projected volume
+			- Pod configuration is modified to include a projected volume that includes the Service Account token.
+			- A token can be created using the TokenRequest API
+				- e.g. `kubectl create token (service-account-name)`
+				-
 		- Described in KEP-2799
 			- https://github.com/zshihang/enhancements/blob/570608f66de16e3c383f7d5c08a10bec8d829553/keps/sig-auth/2799-reduction-of-secret-based-service-account-token/README.md
 		- The `LegacyServiceAccountTokenNoAutoGeneration` feature gate is beta, and enabled by default. When enabled, Secret API objects containing service account tokens are no longer auto-generated for every ServiceAccount. Use the [TokenRequest](https://kubernetes.io/docs/reference/kubernetes-api/authentication-resources/token-request-v1/) API to acquire service account tokens, or if a non-expiring token is required, create a Secret API object for the token controller to populate with a service account token by following this [guide](https://kubernetes.io/docs/concepts/configuration/secret/#service-account-token-secrets). ([#108309](https://github.com/kubernetes/kubernetes/pull/108309), [@zshihang](https://github.com/zshihang))
