@@ -20,7 +20,6 @@
 			- "There are so many problems, we don't have time"
 			- Problem: you can't scope how widely secrets are shared
 		- Vault Agent Injector
-		  collapsed:: true
 			- Flow:
 				- Annotate your Pod manifests with Vault annotations
 				- Sidecar Injector Controller
@@ -35,7 +34,6 @@
 				- in `kube-system` namespace, create a `SecretProviderClass` to describe where secret data comes from.
 				- when your Pod is created, the CSI Driver mounts `/mnt/secrets` and pulls configured secrets from various secret managers (AWS, GCP, Azure, Vault)
 		- External Secrets Operator
-		  collapsed:: true
 			- Summary:
 			- Flow:
 				- Setup In Cluster
